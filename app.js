@@ -45,7 +45,7 @@ const Blog = mongoose.model('Blog', blogSchema);
 
 // RESTFUL ROUTES
 app.get('/', (req, res) => {
-  res.redirect('/blogs');
+  res.send("Hello");
 });
 
   // INDEX ROUTE
