@@ -54,7 +54,7 @@ app.get('/blogs', (req, res) => {
       if (err) {
         console.log('ERROR!');
       } else {
-        res.render('index.ejs', {blogs: blogs});
+        res.render('blogs', {blogs: blogs});
       }
   });
 
