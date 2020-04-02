@@ -1,0 +1,17 @@
+i.icon {
+  font-size: 2em;
+}
+
+.container.main {
+    margin-top: 8%;
+    width: 50%;
+    padding: 25px;
+}
+
+#delete {
+  display: inline;
+}
+
+body{
+	background: #0a0a0f;
+}
